@@ -1,0 +1,200 @@
+2018-03-03 16:05:11.687  INFO 14856 --- [main] birol.SpringgradleApplication            : Starting SpringgradleApplication on DESKTOP-J8VDK1L with PID 14856 (F:\SpringBootWorkspace\Springgradle\bin started by Sherlock Holmes in F:\SpringBootWorkspace\Springgradle)
+2018-03-03 16:05:11.689  INFO 14856 --- [main] birol.SpringgradleApplication            : No active profile set, falling back to default profiles: default
+2018-03-03 16:05:11.718  INFO 14856 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@305a0c5f: startup date [Sat Mar 03 16:05:11 BDT 2018]; root of context hierarchy
+2018-03-03 16:05:12.413  INFO 14856 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1010 (http)
+2018-03-03 16:05:12.421  INFO 14856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-03-03 16:05:12.422  INFO 14856 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-03 16:05:12.467  INFO 14856 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-03-03 16:05:12.468  INFO 14856 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 755 ms
+2018-03-03 16:05:12.555  INFO 14856 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-03 16:05:12.558  INFO 14856 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-03 16:05:12.558  INFO 14856 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-03 16:05:12.558  INFO 14856 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-03 16:05:12.558  INFO 14856 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-03 16:05:12.731  INFO 14856 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@305a0c5f: startup date [Sat Mar 03 16:05:11 BDT 2018]; root of context hierarchy
+2018-03-03 16:05:12.765  INFO 14856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String birol.controller.HomeController.ShowHome()
+2018-03-03 16:05:12.769  INFO 14856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-03 16:05:12.769  INFO 14856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-03 16:05:12.788  INFO 14856 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-03 16:05:12.789  INFO 14856 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-03 16:05:12.808  INFO 14856 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-03 16:05:12.944  INFO 14856 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-03-03 16:05:12.979  INFO 14856 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1010 (http)
+2018-03-03 16:05:12.983  INFO 14856 --- [main] birol.SpringgradleApplication            : Started SpringgradleApplication in 1.514 seconds (JVM running for 2.028)
+2018-03-03 16:09:32.255  INFO 14856 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-03-03 16:09:32.256  INFO 14856 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@305a0c5f: startup date [Sat Mar 03 16:05:11 BDT 2018]; root of context hierarchy
+2018-03-03 16:09:32.257  INFO 14856 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-03-03 16:09:34.875  INFO 12072 --- [main] birol.SpringgradleApplication            : Starting SpringgradleApplication on DESKTOP-J8VDK1L with PID 12072 (F:\SpringBootWorkspace\Springgradle\bin started by Sherlock Holmes in F:\SpringBootWorkspace\Springgradle)
+2018-03-03 16:09:34.877  INFO 12072 --- [main] birol.SpringgradleApplication            : No active profile set, falling back to default profiles: default
+2018-03-03 16:09:34.904  INFO 12072 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@305a0c5f: startup date [Sat Mar 03 16:09:34 BDT 2018]; root of context hierarchy
+2018-03-03 16:09:35.664  INFO 12072 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1010 (http)
+2018-03-03 16:09:35.670  INFO 12072 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-03-03 16:09:35.671  INFO 12072 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-03 16:09:35.712  INFO 12072 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-03-03 16:09:35.713  INFO 12072 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 813 ms
+2018-03-03 16:09:35.800  INFO 12072 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-03 16:09:35.802  INFO 12072 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-03 16:09:35.802  INFO 12072 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-03 16:09:35.802  INFO 12072 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-03 16:09:35.802  INFO 12072 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-03 16:09:35.961  INFO 12072 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@305a0c5f: startup date [Sat Mar 03 16:09:34 BDT 2018]; root of context hierarchy
+2018-03-03 16:09:35.989  INFO 12072 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String birol.controller.HomeController.ShowHome()
+2018-03-03 16:09:35.993  INFO 12072 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-03 16:09:35.994  INFO 12072 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-03 16:09:36.010  INFO 12072 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-03 16:09:36.010  INFO 12072 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-03 16:09:36.027  INFO 12072 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-03 16:09:36.158  INFO 12072 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-03-03 16:09:36.197  INFO 12072 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1010 (http)
+2018-03-03 16:09:36.200  INFO 12072 --- [main] birol.SpringgradleApplication            : Started SpringgradleApplication in 1.522 seconds (JVM running for 2.016)
+2018-03-03 16:09:50.164  INFO 12072 --- [http-nio-1010-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-03 16:09:50.164  INFO 12072 --- [http-nio-1010-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-03 16:09:50.172  INFO 12072 --- [http-nio-1010-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 8 ms
+2018-03-03 17:56:24.063  INFO 12072 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-03-03 17:56:24.066  INFO 12072 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@305a0c5f: startup date [Sat Mar 03 16:09:34 BDT 2018]; root of context hierarchy
+2018-03-03 17:56:24.076  INFO 12072 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-03-03 17:56:28.966  INFO 14228 --- [main] birol.SpringgradleApplication            : Starting SpringgradleApplication on DESKTOP-J8VDK1L with PID 14228 (F:\SpringBootWorkspace\Springgradle\bin started by Sherlock Holmes in F:\SpringBootWorkspace\Springgradle)
+2018-03-03 17:56:28.968  INFO 14228 --- [main] birol.SpringgradleApplication            : No active profile set, falling back to default profiles: default
+2018-03-03 17:56:29.000  INFO 14228 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@305a0c5f: startup date [Sat Mar 03 17:56:28 BDT 2018]; root of context hierarchy
+2018-03-03 17:56:29.734  INFO 14228 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1010 (http)
+2018-03-03 17:56:29.742  INFO 14228 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-03-03 17:56:29.743  INFO 14228 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-03 17:56:29.789  INFO 14228 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-03-03 17:56:29.789  INFO 14228 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 794 ms
+2018-03-03 17:56:29.897  INFO 14228 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-03 17:56:29.900  INFO 14228 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-03 17:56:29.901  INFO 14228 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-03 17:56:29.901  INFO 14228 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-03 17:56:29.901  INFO 14228 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-03 17:56:30.088  INFO 14228 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@305a0c5f: startup date [Sat Mar 03 17:56:28 BDT 2018]; root of context hierarchy
+2018-03-03 17:56:30.120  INFO 14228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String birol.controller.HomeController.ShowHome()
+2018-03-03 17:56:30.124  INFO 14228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-03 17:56:30.124  INFO 14228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-03 17:56:30.143  INFO 14228 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-03 17:56:30.143  INFO 14228 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-03 17:56:30.162  INFO 14228 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-03 17:56:30.306  INFO 14228 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-03-03 17:56:30.341  INFO 14228 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1010 (http)
+2018-03-03 17:56:30.345  INFO 14228 --- [main] birol.SpringgradleApplication            : Started SpringgradleApplication in 1.582 seconds (JVM running for 2.166)
+2018-03-03 17:56:34.503  INFO 14228 --- [http-nio-1010-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-03 17:56:34.504  INFO 14228 --- [http-nio-1010-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-03 17:56:34.515  INFO 14228 --- [http-nio-1010-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms
+2018-03-03 18:01:50.168  INFO 14228 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-03-03 18:01:50.168  INFO 14228 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@305a0c5f: startup date [Sat Mar 03 17:56:28 BDT 2018]; root of context hierarchy
+2018-03-03 18:01:50.170  INFO 14228 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-03-03 18:01:52.845  INFO 14560 --- [main] birol.SpringgradleApplication            : Starting SpringgradleApplication on DESKTOP-J8VDK1L with PID 14560 (F:\SpringBootWorkspace\Springgradle\bin started by Sherlock Holmes in F:\SpringBootWorkspace\Springgradle)
+2018-03-03 18:01:52.847  INFO 14560 --- [main] birol.SpringgradleApplication            : No active profile set, falling back to default profiles: default
+2018-03-03 18:01:52.872  INFO 14560 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@305a0c5f: startup date [Sat Mar 03 18:01:52 BDT 2018]; root of context hierarchy
+2018-03-03 18:01:53.504  INFO 14560 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1010 (http)
+2018-03-03 18:01:53.510  INFO 14560 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-03-03 18:01:53.511  INFO 14560 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-03 18:01:53.579  INFO 14560 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-03-03 18:01:53.579  INFO 14560 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 711 ms
+2018-03-03 18:01:53.669  INFO 14560 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-03 18:01:53.671  INFO 14560 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-03 18:01:53.672  INFO 14560 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-03 18:01:53.672  INFO 14560 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-03 18:01:53.672  INFO 14560 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-03 18:01:53.808  INFO 14560 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@305a0c5f: startup date [Sat Mar 03 18:01:52 BDT 2018]; root of context hierarchy
+2018-03-03 18:01:53.837  INFO 14560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String birol.controller.HomeController.ShowHome()
+2018-03-03 18:01:53.839  INFO 14560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-03 18:01:53.840  INFO 14560 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-03 18:01:53.854  INFO 14560 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-03 18:01:53.854  INFO 14560 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-03 18:01:53.871  INFO 14560 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-03 18:01:54.003  INFO 14560 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-03-03 18:01:54.032  INFO 14560 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1010 (http)
+2018-03-03 18:01:54.036  INFO 14560 --- [main] birol.SpringgradleApplication            : Started SpringgradleApplication in 1.362 seconds (JVM running for 1.781)
+2018-03-03 18:01:57.821  INFO 14560 --- [http-nio-1010-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-03 18:01:57.821  INFO 14560 --- [http-nio-1010-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-03 18:01:57.829  INFO 14560 --- [http-nio-1010-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 8 ms
+2018-03-03 18:12:16.258  INFO 14560 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-03-03 18:12:16.258  INFO 14560 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@305a0c5f: startup date [Sat Mar 03 18:01:52 BDT 2018]; root of context hierarchy
+2018-03-03 18:12:16.259  INFO 14560 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-03-03 18:12:18.807  INFO 4808 --- [main] birol.SpringgradleApplication            : Starting SpringgradleApplication on DESKTOP-J8VDK1L with PID 4808 (F:\SpringBootWorkspace\Springgradle\bin started by Sherlock Holmes in F:\SpringBootWorkspace\Springgradle)
+2018-03-03 18:12:18.809  INFO 4808 --- [main] birol.SpringgradleApplication            : No active profile set, falling back to default profiles: default
+2018-03-03 18:12:18.836  INFO 4808 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@305a0c5f: startup date [Sat Mar 03 18:12:18 BDT 2018]; root of context hierarchy
+2018-03-03 18:12:19.535  INFO 4808 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1010 (http)
+2018-03-03 18:12:19.541  INFO 4808 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-03-03 18:12:19.542  INFO 4808 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-03 18:12:19.584  INFO 4808 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-03-03 18:12:19.584  INFO 4808 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 751 ms
+2018-03-03 18:12:19.674  INFO 4808 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-03 18:12:19.676  INFO 4808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-03 18:12:19.677  INFO 4808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-03 18:12:19.677  INFO 4808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-03 18:12:19.677  INFO 4808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-03 18:12:19.830  INFO 4808 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@305a0c5f: startup date [Sat Mar 03 18:12:18 BDT 2018]; root of context hierarchy
+2018-03-03 18:12:19.858  INFO 4808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{schoolname}],methods=[GET]}" onto public java.lang.String birol.controller.BoardController.showSchool(java.lang.String)
+2018-03-03 18:12:19.858  INFO 4808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String birol.controller.HomeController.ShowHome()
+2018-03-03 18:12:19.860  INFO 4808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-03 18:12:19.860  INFO 4808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-03 18:12:19.875  INFO 4808 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-03 18:12:19.875  INFO 4808 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-03 18:12:19.893  INFO 4808 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-03 18:12:20.026  INFO 4808 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-03-03 18:12:20.057  INFO 4808 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1010 (http)
+2018-03-03 18:12:20.060  INFO 4808 --- [main] birol.SpringgradleApplication            : Started SpringgradleApplication in 1.449 seconds (JVM running for 1.941)
+2018-03-03 18:12:27.888  INFO 4808 --- [http-nio-1010-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-03 18:12:27.889  INFO 4808 --- [http-nio-1010-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-03 18:12:27.898  INFO 4808 --- [http-nio-1010-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 9 ms
+2018-03-03 18:18:04.831  INFO 4808 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-03-03 18:18:04.832  INFO 4808 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@305a0c5f: startup date [Sat Mar 03 18:12:18 BDT 2018]; root of context hierarchy
+2018-03-03 18:18:04.833  INFO 4808 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-03-03 18:18:07.354  INFO 9876 --- [main] birol.SpringgradleApplication            : Starting SpringgradleApplication on DESKTOP-J8VDK1L with PID 9876 (F:\SpringBootWorkspace\Springgradle\bin started by Sherlock Holmes in F:\SpringBootWorkspace\Springgradle)
+2018-03-03 18:18:07.356  INFO 9876 --- [main] birol.SpringgradleApplication            : No active profile set, falling back to default profiles: default
+2018-03-03 18:18:07.391  INFO 9876 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@305a0c5f: startup date [Sat Mar 03 18:18:07 BDT 2018]; root of context hierarchy
+2018-03-03 18:18:08.065  INFO 9876 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1010 (http)
+2018-03-03 18:18:08.072  INFO 9876 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-03-03 18:18:08.073  INFO 9876 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-03 18:18:08.116  INFO 9876 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-03-03 18:18:08.116  INFO 9876 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 729 ms
+2018-03-03 18:18:08.221  INFO 9876 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-03 18:18:08.224  INFO 9876 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-03 18:18:08.225  INFO 9876 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-03 18:18:08.225  INFO 9876 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-03 18:18:08.225  INFO 9876 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-03 18:18:08.372  INFO 9876 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@305a0c5f: startup date [Sat Mar 03 18:18:07 BDT 2018]; root of context hierarchy
+2018-03-03 18:18:08.402  INFO 9876 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{schoolname}],methods=[GET]}" onto public java.lang.String birol.controller.BoardController.showSchool(java.lang.String,org.springframework.ui.Model)
+2018-03-03 18:18:08.404  INFO 9876 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String birol.controller.HomeController.ShowHome()
+2018-03-03 18:18:08.407  INFO 9876 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-03 18:18:08.408  INFO 9876 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-03 18:18:08.422  INFO 9876 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-03 18:18:08.422  INFO 9876 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-03 18:18:08.441  INFO 9876 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-03 18:18:08.584  INFO 9876 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-03-03 18:18:08.618  INFO 9876 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1010 (http)
+2018-03-03 18:18:08.622  INFO 9876 --- [main] birol.SpringgradleApplication            : Started SpringgradleApplication in 1.449 seconds (JVM running for 1.922)
+2018-03-03 18:18:17.204  INFO 9876 --- [http-nio-1010-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-03 18:18:17.204  INFO 9876 --- [http-nio-1010-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-03 18:18:17.212  INFO 9876 --- [http-nio-1010-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 8 ms
+2018-03-03 18:28:58.014  INFO 9876 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-03-03 18:28:58.017  INFO 9876 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@305a0c5f: startup date [Sat Mar 03 18:18:07 BDT 2018]; root of context hierarchy
+2018-03-03 18:28:58.018  INFO 9876 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-03-04 10:35:56.494  INFO 9680 --- [main] birol.SpringgradleApplication            : Starting SpringgradleApplication on DESKTOP-J8VDK1L with PID 9680 (F:\SpringBootWorkspace\Springgradle\bin started by Sherlock Holmes in F:\SpringBootWorkspace\Springgradle)
+2018-03-04 10:35:56.524  INFO 9680 --- [main] birol.SpringgradleApplication            : No active profile set, falling back to default profiles: default
+2018-03-04 10:35:56.552  INFO 9680 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@305a0c5f: startup date [Sun Mar 04 10:35:56 BDT 2018]; root of context hierarchy
+2018-03-04 10:35:57.512  INFO 9680 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1010 (http)
+2018-03-04 10:35:57.518  INFO 9680 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-03-04 10:35:57.519  INFO 9680 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-03-04 10:35:57.569  INFO 9680 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-03-04 10:35:57.569  INFO 9680 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1020 ms
+2018-03-04 10:35:57.638  INFO 9680 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-03-04 10:35:57.641  INFO 9680 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-04 10:35:57.641  INFO 9680 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-04 10:35:57.641  INFO 9680 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-04 10:35:57.641  INFO 9680 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-04 10:35:57.798  INFO 9680 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@305a0c5f: startup date [Sun Mar 04 10:35:56 BDT 2018]; root of context hierarchy
+2018-03-04 10:35:57.824  INFO 9680 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{schoolname}],methods=[GET]}" onto public java.lang.String birol.controller.BoardController.showSchool(java.lang.String,org.springframework.ui.Model)
+2018-03-04 10:35:57.825  INFO 9680 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String birol.controller.HomeController.ShowHome()
+2018-03-04 10:35:57.826  INFO 9680 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-04 10:35:57.827  INFO 9680 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-04 10:35:57.841  INFO 9680 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-04 10:35:57.841  INFO 9680 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-04 10:35:57.857  INFO 9680 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-04 10:35:57.998  INFO 9680 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-03-04 10:35:58.026  INFO 9680 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1010 (http)
+2018-03-04 10:35:58.030  INFO 9680 --- [main] birol.SpringgradleApplication            : Started SpringgradleApplication in 1.717 seconds (JVM running for 2.336)
+2018-03-04 10:47:09.864  INFO 9680 --- [http-nio-1010-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-04 10:47:09.865  INFO 9680 --- [http-nio-1010-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-04 10:47:09.895  INFO 9680 --- [http-nio-1010-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
